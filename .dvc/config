@@ -1,0 +1,6 @@
+[core]
+    remote = myremote
+['remote "dvcstore"']
+    url = s3://kriti-dvc-s3-proj
+['remote "myremote"']
+    url = s3://your-bucket-name/path/to/dvc-store
